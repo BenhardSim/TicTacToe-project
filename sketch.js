@@ -16,6 +16,10 @@ let winner = null;
 let players = ['X','O']
 let player = players[0];
 
+let resetButton = document.querySelector("button");
+resetButton.innerHTML = 'Reset The game';
+resetButton.style.backgroundColor = 'red';
+
 function setup() {
   createCanvas(400, 400);
   createP('TicTacToe GAME')
