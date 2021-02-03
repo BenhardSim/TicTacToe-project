@@ -21,9 +21,10 @@ resetButton.innerHTML = 'Reset The game';
 resetButton.style.backgroundColor = 'red';
 
 function setup() {
-  createCanvas(400, 400);
-  createP('TicTacToe GAME')
-  createP('Created By : Benhard Simanullang')
+  let canvas = createCanvas(400, 400);
+  // createP('TicTacToe GAME')
+  // createP('Created By : Benhard Simanullang')
+  canvas;
 }
 
 function switchPlayer(){
@@ -79,6 +80,7 @@ function draw() {
 */
 function mousePressed(){
   // tabel 1 [0][0]
+  let add = 0;
   let w = width/3
   let h = height/3
   if(mouseX<w && mouseX > 0 && mouseY < h && mouseY > 0 && checkBoard[0][0] != 'Used'){
@@ -135,7 +137,8 @@ function mousePressed(){
     switchPlayer()
   }
   else if(game == 'start'){
-    createP('Try another Spot !!')
+   let draw = createP('Try Another Spot !!!!')
+   draw
   }
 
 }

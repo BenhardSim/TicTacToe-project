@@ -7,5 +7,24 @@ canvas {
   display: block;
 }
  button {
-  position: relative;
+  margin-left: 125px;
+  margin-bottom: 20px;
+  height: 40px;
  }
+ h1 {
+   margin-left: 30px;
+   font-family:  Helvetica;
+   color: greenyellow;
+   
+ }
+
+ p {
+   background-color: 'red';
+ }
+
+ h3 {
+   margin-top: 5px;
+   margin-left: 85px;
+   font-family:  Helvetica;
+ }
+
